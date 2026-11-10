@@ -1,0 +1,9 @@
+# Ignorar directorio de plugins de Terraform
+.terraform/
+
+# Ignorar archivos de estado locales (contienen IPs y datos de infraestructura)
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivo de bloqueo de versiones para evitar conflictos
+.terraform.lock.hcl
